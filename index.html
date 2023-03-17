@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
   <link rel="stylesheet" href="styles.css" />
   <script async
     src="https://api.countapi.xyz/hit/cgmartinez.com/72368ae4-569c-4be9-b9fa-6e7578796cf3?callback=websiteVisits"></script>
@@ -52,7 +53,7 @@
   <main id="main">
 
     <!-- About -->
-    <div class="about center">
+    <div class="reveal about center">
       <div class="about">
         <p>Hi! My name is</p>
         <h1 class="about__name">Carlos Martinez</h1>
@@ -60,12 +61,14 @@
         <img src="img/aboutpic.png" class="about__me">
 
         <!-- <h2 class="about__role">I'm a Full-Stack Web Developer.</h2> -->
-        <p class="about__desc">
+        <p class="about__desc" id="aboutme">
           I'm a <span class="about__name">full-stack web developer</span> with a background in graphic design and
           education. I have developer
           experience in database manipulation and the creation of engaging web applications. I'm highly skilled and
           flexible to work independently or in a team to provide client-centered solutions.
         </p>
+        <br>
+        <p>When I'm not working, I enjoy running and working on portrait paintings.</p>
       </div>
       <div class="about__contact center">
         <a href="img/cgmartinez_resume.pdf" target="_blank">
@@ -84,11 +87,11 @@
     </div>
 
     <!-- Projects -->
-    <section id="projects" class="section projects">
+    <section id="projects" class="reveal section projects">
       <h2 class="section__title">Projects</h2>
       <p class="section__desc">These are some projects that I've been working on lately.</p>
       <div class="projects__grid">
-        <div class="project">
+        <div class="reveal project">
           <h3>Pokédex App</h3>
           <br>
           <img src="img/pokedex.png" width="250" height="auto">
@@ -111,7 +114,7 @@
           </a>
         </div>
 
-        <div class="project">
+        <div class="reveal project">
           <h3>Cinema-Spark App</h3>
           <br>
           <img src="img/myflix.png" width="250" height="auto">
@@ -138,7 +141,7 @@
           </a>
         </div>
 
-        <div class="project">
+        <div class="reveal project">
           <h3>MyFlix Angular App</h3>
           <br>
           <img src="img/angular-app.png" width="250" height="auto">
@@ -164,7 +167,7 @@
           </a>
         </div>
 
-        <div class="project">
+        <div class="reveal project">
           <h3>Meet App</h3>
           <br>
           <img src="img/meet-app.png" width="250" height="auto">
@@ -190,7 +193,7 @@
           </a>
         </div>
 
-        <div class="project">
+        <div class="reveal project">
           <h3>Chat App</h3>
           <br>
           <img src="img/chat-app.png" width="250" height="auto">
@@ -215,7 +218,7 @@
           </a> -->
         </div>
 
-        <div class="project">
+        <div class="reveal project">
           <h3>Vue Quiz App</h3>
           <br>
           <img src="img/vue-app.png" width="250" height="auto">
@@ -244,7 +247,7 @@
     </section>
 
     <!-- Skills -->
-    <section class="section skills" id="skills">
+    <section class="reveal section skills" id="skills">
       <h2 class="section__title">Skills</h2>
       <ul class="skills__list">
         <li class="skills__list-item btn btn--plain">HTML</li>
@@ -270,9 +273,10 @@
       <p class="section__title">Ruby on Rails</p>
     </section>
     <!-- Contact -->
-    <section class="section contact center" id="contact">
+    <section class="reveal section contact center" id="contact">
       <h2 class="section__title">Contact</h2>
       <p class="section__title">Send me an email if you'd like to get in touch!</p>
+      <br>
       <a href="mailto:cgzmarti@gmail.com">
         <span class="btn btn--outline">Send an Email</span>
       </a>
@@ -285,7 +289,7 @@
       </a>
     </div>
   </div>
-  <div class="footer">
+  <div class="reveal footer">
     <p>Follow me here:</p>
     <a href="https://github.com/cgzmartinez" target="_blank" aria-label="github" class="link link--icon">
       <i aria-hidden="true" class="fab fa-github"></i>
@@ -297,7 +301,7 @@
       <i aria-hidden="true" class="fab fa-medium"></i>
     </a>
   </div>
-  <div class="footer">
+  <div class="reveal footer">
     <h4>Visitors:</h4>
     <h1 class="about__name" id="visits">0</h1>
   </div>

@@ -64,3 +64,8 @@ const scrollUp = () => {
   }
 }
 document.addEventListener('scroll', scrollUp)
+
+ScrollReveal().reveal('.reveal', {
+  easing: "ease-in",
+  reset: true
+});
