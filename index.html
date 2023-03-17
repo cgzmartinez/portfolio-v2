@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <script async
+    src="https://api.countapi.xyz/hit/cgmartinez.com/72368ae4-569c-4be9-b9fa-6e7578796cf3?callback=websiteVisits"></script>
+
+  <title>Carlos Martinez Portfolio</title>
+</head>
+
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="https://linkedin.com/in/carlos-g-martinez/" target="_blank" class="link link--icon">
+        <i aria-hidden="true" class="fas fa-code"></i> CM</a>
+    </h3>
+
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#aboutme">About Me</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
+
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- About -->
+    <div class="about center">
+      <div class="about">
+        <p>Hi! My name is</p>
+        <h1 class="about__name">Carlos Martinez</h1>
+
+        <img src="img/aboutpic.png" class="about__me">
+
+        <!-- <h2 class="about__role">I'm a Full-Stack Web Developer.</h2> -->
+        <p class="about__desc">
+          I'm a <span class="about__name">full-stack web developer</span> with a background in graphic design and
+          education. I have developer
+          experience in database manipulation and the creation of engaging web applications. I'm highly skilled and
+          flexible to work independently or in a team to provide client-centered solutions.
+        </p>
+      </div>
+      <div class="about__contact center">
+        <a href="img/cgmartinez_resume.pdf" target="_blank">
+          <span class="btn btn--outline">Download Resume</span>
+        </a>
+
+        <a href="https://github.com/cgzmartinez" target="_blank" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+
+        <a href="https://linkedin.com/in/carlos-g-martinez/" target="_blank" aria-label="linkedin"
+          class="link link--icon">
+          <i aria-hidden="true" class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
+      <p class="section__desc">These are some projects that I've been working on lately.</p>
+      <div class="projects__grid">
+        <div class="project">
+          <h3>Pokédex App</h3>
+          <br>
+          <img src="img/pokedex.png" width="250" height="auto">
+          <p class="project__description">
+            This is a simple web application that displays data from a Pokémon API.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a href="https://github.com/cgzmartinez/pokedex-app" target="_blank" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://cgzmartinez.github.io/pokedex-app/" target="_blank" aria-label="live preview"
+            class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Cinema-Spark App</h3>
+          <br>
+          <img src="img/myflix.png" width="250" height="auto">
+          <p class="project__description">
+            Using React.js as a framework, the goal was to build the
+            client-side for an application called myFlix based on its existing server-side code (REST API and database).
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">JavaScript</li>
+            <li class="project__stack-item">React</li>
+            <li class="project__stack-item">Bootstrap</li>
+            <li class="project__stack-item">Heroku</li>
+            <li class="project__stack-item">MongdoDB</li>
+          </ul>
+
+          <a href="https://github.com/cgzmartinez/myFlix-client" target="_blank" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://cinema-spark.netlify.app/" target="_blank" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>MyFlix Angular App</h3>
+          <br>
+          <img src="img/angular-app.png" width="250" height="auto">
+          <p class="project__description">
+            The goal of this project was to build an Angular application that allows users to make and edit an
+            account, and add or remove favorite movies fetched from a seperate movie api and database.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">JavaScript</li>
+            <li class="project__stack-item">TypeScript</li>
+            <li class="project__stack-item">Angular</li>
+          </ul>
+
+          <a href="https://github.com/cgzmartinez/myFlix-Angular-Client" target="_blank" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://cgzmartinez.github.io/myFlix-Angular-Client/" target="_blank" aria-label="live preview"
+            class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Meet App</h3>
+          <br>
+          <img src="img/meet-app.png" width="250" height="auto">
+          <p class="project__description">
+            The goal of this project was to build a serverless, progressive web application (PWA) with React
+            using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch
+            upcoming events.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">React</li>
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a href="https://github.com/cgzmartinez/meet" target="_blank" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://cgzmartinez.github.io/meet/" target="_blank" aria-label="live preview"
+            class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Chat App</h3>
+          <br>
+          <img src="img/chat-app.png" width="250" height="auto">
+          <p class="project__description">
+            The goal of this project was to build a chat app for mobile devices using React Native. The app will
+            provide users with a chat interface and options to share images and their location.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">JavaScript</li>
+            <li class="project__stack-item">React Native</li>
+            <li class="project__stack-item">Firebase</li>
+          </ul>
+
+          <a href="https://github.com/cgzmartinez/chat-app/" target="_blank" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <!-- <a href="https://example.com" target="_blank" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a> -->
+        </div>
+
+        <div class="project">
+          <h3>Vue Quiz App</h3>
+          <br>
+          <img src="img/vue-app.png" width="250" height="auto">
+          <p class="project__description">
+            This is a simple quiz application using Vue and Vite. The app loads pre-written questions and returns
+            feedback depending on what answer was selected.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">JavaScript</li>
+            <li class="project__stack-item">Vue</li>
+
+          </ul>
+
+          <a href="https://github.com/cgzmartinez/to-do-list-app" target="_blank" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://cgzmartinez.github.io/to-do-list-app/" target="_blank" aria-label="live preview"
+            class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <h3 class="progress">Currently Learning</h3>
+      <img class="learn learn_center" src="img/rubyonrails.svg" height="150px" alt="rubyicon">
+      <p class="section__title">Ruby on Rails</p>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">HTML</li>
+        <li class="skills__list-item btn btn--plain">CSS</li>
+        <li class="skills__list-item btn btn--plain">SASS</li>
+        <li class="skills__list-item btn btn--plain">JavaScript</li>
+        <li class="skills__list-item btn btn--plain">JQuery</li>
+        <li class="skills__list-item btn btn--plain">TypeScript</li>
+        <li class="skills__list-item btn btn--plain">React</li>
+        <li class="skills__list-item btn btn--plain">Angular</li>
+        <li class="skills__list-item btn btn--plain">Vue</li>
+        <li class="skills__list-item btn btn--plain">Redux</li>
+        <li class="skills__list-item btn btn--plain">Java</li>
+        <li class="skills__list-item btn btn--plain">NodeJs</li>
+        <li class="skills__list-item btn btn--plain">ExpressJS</li>
+        <li class="skills__list-item btn btn--plain">MongdoDB</li>
+        <li class="skills__list-item btn btn--plain">Material UI</li>
+        <li class="skills__list-item btn btn--plain">Bootstrap</li>
+        <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+      </ul>
+    </section>
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <p class="section__title">Send me an email if you'd like to get in touch!</p>
+      <a href="mailto:cgzmarti@gmail.com">
+        <span class="btn btn--outline">Send an Email</span>
+      </a>
+    </section>
+  </main>
+  <div class="scroll-container">
+    <div class="link link--icon scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Follow me here:</p>
+    <a href="https://github.com/cgzmartinez" target="_blank" aria-label="github" class="link link--icon">
+      <i aria-hidden="true" class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/carlos-g-martinez/" target="_blank" aria-label="linkedin" class="link link--icon">
+      <i aria-hidden="true" class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://medium.com/@cgzmarti" target="_blank" aria-label="medium" class="link link--icon">
+      <i aria-hidden="true" class="fab fa-medium"></i>
+    </a>
+  </div>
+  <div class="footer">
+    <h4>Visitors:</h4>
+    <h1 class="about__name" id="visits">0</h1>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
