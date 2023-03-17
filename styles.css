@@ -23,7 +23,6 @@ body {
   color: var(--clr-fg);
   background-color: var(--clr-bg);
   transition: 0.5s linear;
-
 }
 
 .light {
@@ -230,6 +229,16 @@ button {
   align-items: center;
 }
 
+.divider {
+  display: flex;
+  max-width: 1100px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
 .header {
   height: 8em;
   max-width: 1100px;
@@ -245,7 +254,7 @@ main {
 }
 
 .section {
-  margin-top: 10em;
+  margin-top: 5em;
 }
 
 .section__title {
@@ -361,6 +370,10 @@ main {
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+.skills {
+  margin-top: 10em;
 }
 
 .skills__list {
